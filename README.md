@@ -1,3 +1,59 @@
+to start the project you need to clone the repo 
+cd to ```would.you.rather```
+then run 
+```yarn```
+then run 
+```yarn start```
+
+the repo contain the Would you rather project
+
+the folders tree:
+# action 
+which contain the actions for 
+authActions
+questionsActions
+usersActions
+actionsCreator.js
+
+# components
+AddQuestion
+Dashboard
+Header
+LeaderBoard
+Login
+LogOut
+Main
+NotFound
+QuestionDetails
+Question
+Routes
+User
+
+# middleware
+contain index file
+
+# reducers
+contains the reducers 
+authReducers
+questionsReducers
+usersReducers
+index => contain the combineReducers
+
+# resources
+contains the utils 
+_DATA.js
+api
+helpersResources.js
+
+# types
+contain all the action types 
+statusTypes
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
